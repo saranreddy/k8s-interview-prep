@@ -1,17 +1,17 @@
 # Progress Tracker
 
-**Overall Completion: 0%**
+**Overall Completion: 13%**
 
 ```
-[░░░░░░░░░░░░░░░░░░░░] 0/100
+[██░░░░░░░░░░░░░░░░░░] 13/100
 ```
 
 ## Module Status
 
 | Module | Topic | Weight | Status | Date Completed | Notes |
 |--------|-------|--------|--------|----------------|-------|
-| 00 | Setup | 5% | Not Started | - | |
-| 01 | Architecture & Control Plane | 8% | Not Started | - | |
+| 00 | Setup | 5% | Done | 2026-10-12 | k3s on EC2 t3.medium, kubeconfig and IP-change handling |
+| 01 | Architecture & Control Plane | 8% | Done | 2026-10-12 | passed 4/5, weak spots are leader election using a Lease (not Raft), the pod delete/replace flow, and Pending causes |
 | 02 | Workloads | 12% | Not Started | - | |
 | 03 | Scheduling | 10% | Not Started | - | |
 | 04 | Networking | 12% | Not Started | - | |
